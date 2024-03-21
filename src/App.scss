@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo{
+  max-width: 125px;
+  height: 15%;
+}
+.bg{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(16,126,214,1) 0%, rgba(125,215,255,1) 45%, rgba(16,126,214,1) 100%);
+}
+.banner{
+max-width: 100%;
+height: auto;
+}
+.box{
+  position: relative;
+  top:25px;
+  left: 1%;
+  width: 98%;
+  border-style: solid;
+  border-width: 5px !important;
+  border-color: gainsboro;
+
+  .mostlike{
+    background-color: #0c2d41;
+    color: white;
+  }
+}
