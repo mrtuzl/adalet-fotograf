@@ -3,7 +3,6 @@ import React from "react";
 import Image from "./Image";
 
 export default function GetImg() {
-
     const [images, setImages] = useState([]);
 
     useEffect(() => {
@@ -16,17 +15,16 @@ export default function GetImg() {
     },[])
 
     return (    
-        <> 
-        <div> 
+        <div className="container-wrap cards">
+            <div className="row">
                 {
                     images.map((img) => (
-                        <Image key={img.id} {...img}
-                        />
+                        <div key={img.id} className="col-lg-3 col-md-6 col-sm-12 mb-3">
+                            <Image {...img} />
+                        </div>
                     ))
                 }
+            </div>
         </div>
-        
-            <h1> {images.length} </h1>
-        </>
     )
 }

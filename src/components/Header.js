@@ -23,12 +23,12 @@ export default function Header() {
                     <img src={banner} alt="banner" className="banner"/>
                     </div>
             </div>
-            <div className="box bg-white d-flex justify-content-center p-1 rounded-3"> 
-                    <div className="p-2 mostlike d-flex align-items-center justify-content-center rounded-2"> 
+            <div className="box bg-white d-flex justify-content-center p-1 rounded-3 shadow"> 
+                    <div className="px-3 py-2 mostlike d-flex align-items-center justify-content-center rounded-2"> 
                         <div className="rounded-5 bg-danger border border-1 border-white text-center p-2"> 
                             <FaTrophy size={25}/> 
                         </div>
-                        <span className="mx-1 d-flex fs-5"> En çok beğeni alan <span className="bg-danger rounded-2 px-1 mx-1"> 10 </span> fotoğraf </span>
+                        <span className="mx-2 d-flex fs-5"> En çok beğeni alan <span className="bg-danger rounded-2 px-1 mx-1"> 10 </span> fotoğraf </span>
                     </div>
             </div>
         </header>

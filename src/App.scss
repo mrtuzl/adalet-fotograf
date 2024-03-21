@@ -17,15 +17,25 @@ height: auto;
 }
 .box{
   position: relative;
-  top:25px;
+  top:40px;
   left: 1%;
   width: 98%;
   border-style: solid;
   border-width: 5px !important;
-  border-color: gainsboro;
+  border-color: #edf2f9;
 
   .mostlike{
     background-color: #0c2d41;
     color: white;
+  }
+}
+.cards{
+  background-color: #edf2f9;
+  padding: 5% 0 0 0;
+}
+.card{
+  width: 22rem;
+  .card-img-top{
+    height: 300px;
   }
 }
