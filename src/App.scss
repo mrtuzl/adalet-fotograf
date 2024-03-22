@@ -34,8 +34,16 @@ height: auto;
   padding: 5% 0 0 0;
 }
 .card{
-  width: 22rem;
+  width: 28em;
+  height: 20em;
+  cursor: pointer;
   .card-img-top{
-    height: 300px;
+    height: 20em;
+    object-fit: cover;
+  }
+}
+.card:hover{
+  img{
+    opacity: 80%;
   }
 }

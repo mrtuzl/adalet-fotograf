@@ -39,8 +39,16 @@
 }
 
 .card {
-  width: 22rem;
+  width: 28em;
+  height: 20em;
+  cursor: pointer;
 }
 .card .card-img-top {
-  height: 300px;
+  height: 20em;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card:hover img {
+  opacity: 80%;
 }/*# sourceMappingURL=App.css.map */
