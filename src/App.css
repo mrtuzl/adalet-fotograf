@@ -62,7 +62,8 @@
 }
 
 .social:hover {
-  box-shadow: 0px 3px #e2e2e2;
+  box-shadow: 0px 1px 1px 1px #797777;
+  z-index: 1;
 }
 
 .modal-dialog {
@@ -75,4 +76,16 @@
   height: 500px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.btn-close {
+  top: 10% !important;
+  right: -3% !important;
+}
+
+.follow {
+  width: 150px !important;
+  height: auto;
+  font-size: 0.8rem;
+  cursor: pointer;
 }/*# sourceMappingURL=App.css.map */
