@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/adalet-fotograf/static/css/main.c30a81fe.css",
-    "main.js": "/adalet-fotograf/static/js/main.f5bfbe4b.js",
+    "main.css": "/adalet-fotograf/static/css/main.bcb5c0d5.css",
+    "main.js": "/adalet-fotograf/static/js/main.c7b59b6a.js",
     "static/js/453.8742c62d.chunk.js": "/adalet-fotograf/static/js/453.8742c62d.chunk.js",
     "static/media/100yillogo.png": "/adalet-fotograf/static/media/100yillogo.15123bfe7610e0de05e9.png",
     "static/media/adaletlogo.png": "/adalet-fotograf/static/media/adaletlogo.ec57702f7519484fff4c.png",
@@ -9,12 +9,12 @@
     "static/media/logo.png": "/adalet-fotograf/static/media/logo.3a410b6e421fbc18b6c4.png",
     "static/media/100logo.png": "/adalet-fotograf/static/media/100logo.b79c53f2cc08df2d9872.png",
     "index.html": "/adalet-fotograf/index.html",
-    "main.c30a81fe.css.map": "/adalet-fotograf/static/css/main.c30a81fe.css.map",
-    "main.f5bfbe4b.js.map": "/adalet-fotograf/static/js/main.f5bfbe4b.js.map",
+    "main.bcb5c0d5.css.map": "/adalet-fotograf/static/css/main.bcb5c0d5.css.map",
+    "main.c7b59b6a.js.map": "/adalet-fotograf/static/js/main.c7b59b6a.js.map",
     "453.8742c62d.chunk.js.map": "/adalet-fotograf/static/js/453.8742c62d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c30a81fe.css",
-    "static/js/main.f5bfbe4b.js"
+    "static/css/main.bcb5c0d5.css",
+    "static/js/main.c7b59b6a.js"
   ]
 }
