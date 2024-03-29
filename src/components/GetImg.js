@@ -20,8 +20,8 @@ export default function GetImg() {
     },[])
 
     return (    
-        <div className="container-wrap cards">
-            <div className="row p-3">
+        <div className="container-fluid cards">
+            <div className="row">
                 {
                     images.map((img) => (
                         <div key={img.id} className="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-3 d-flex justify-content-center">

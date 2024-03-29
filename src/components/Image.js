@@ -31,7 +31,7 @@ export default function Image(props) {
 
     return (
         <>
-            <div className="card m-3 shadow" onClick={() => handleOpenModal(props.urls.regular)}>
+            <div className="card my-3 shadow" onClick={() => handleOpenModal(props.urls.regular)}>
                 <img src={props.urls.small} alt={props.alt_description} className="card-img-top"/> 
                 <div className="card-body d-flex flex-column justify-content-center align-items-center">
                     <p className="fw-bold text-uppercase text-center">

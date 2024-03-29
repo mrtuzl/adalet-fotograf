@@ -27,7 +27,7 @@ export default function Header() {
                     <img src={banner} alt="banner" className="banner"/>
                     </div>
             </div>
-            <div className="box bg-white d-flex justify-content-center p-1 rounded-3"> 
+            <div className="box bg-white d-flex justify-content-center p-1 my-3 rounded-3"> 
                     <div className="p-2 mostlike d-flex align-items-center justify-content-center rounded-2"> 
                         <div className="rounded-5 bg-danger border border-1 border-white text-center p-2"> 
                             <FaTrophy size={25}/> 
