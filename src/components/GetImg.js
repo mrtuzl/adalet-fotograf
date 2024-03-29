@@ -23,11 +23,11 @@ export default function GetImg() {
     },[])
 
     return (    
-        <div className="container-fluid cards">
-            <div className="row">
+        <div className="container-fluid p-3 cards">
+            <div className="row p-3">
                 {
                     images.map((img) => (
-                        <div key={img.id} className="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-3 d-flex justify-content-center">
+                        <div key={img.id} className="col-xl-4 col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center">
                             <Image {...img} />
                         </div>
                     ))
