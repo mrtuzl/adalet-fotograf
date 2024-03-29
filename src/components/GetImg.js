@@ -32,6 +32,7 @@ export default function GetImg() {
                         </div>
                     ))
                 }
+                
                <div className={`position-fixed bottom-0 end-0 p-0 bg-white shadow-lg rounded m-1 follow ${follow ? 'hide' : 'show'}`}>
                     <div className="border border-1 p-2 d-flex justify-content-center align-items-center" 
                      onClick={() => setFollow(!follow)}> <span className="fw-bold"> Bizi takip edin </span> </div>

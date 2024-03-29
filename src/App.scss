@@ -5,9 +5,9 @@
 }
 .logos{
   .logo{
-    max-width: 125px;
-    height: 15%;
-    object-fit: cover;
+    max-width: 120px !important;
+    height: auto;
+    object-fit: contain;
     cursor: pointer;
   }
 }
