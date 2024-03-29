@@ -13,12 +13,12 @@ export default function Header() {
         <> 
         <header className="container-fluid bg">
             <div className="d-flex flex-column header"> 
-                    <div className="d-flex p-3 align-items-center logos"> 
-                        <div className="m-3 d-inline"> 
-                         <img src={yuzyilLogo} alt="100. Yıl Logo" className="logo m-1"/>
-                         <img src={yuzLogo} alt="100. Yıl Logo" className="logo m-1"/> 
+                    <div className="d-flex p-3 align-items-center justify-content-center logos"> 
+                        <div className="m-3 d-inline text-center"> 
+                         <img src={yuzyilLogo} alt="100. Yıl Logo" className="logo m-1 my-3"/>
+                         <img src={yuzLogo} alt="100. Yıl Logo" className="logo m-1 my-3"/> 
                          </div>
-                        <div className="d-inline"> 
+                        <div className="d-inline text-center"> 
                         <img src={adaletLogo} alt="Adalet Logo" className="logo p-3"/> 
                         <img src={logo} alt="Personel Logo" className="logo m-1"/> 
                         </div>
@@ -32,7 +32,7 @@ export default function Header() {
                         <div className="rounded-5 bg-danger border border-1 border-white text-center p-2"> 
                             <FaTrophy size={25}/> 
                         </div>
-                        <span className="mx-1 d-flex fs-5"> En çok beğeni alan <span className="bg-danger rounded-2 px-1 mx-1"> 10 </span> fotoğraf </span>
+                        <span className="mx-1 d-flex fs-6"> En çok beğeni alan <span className="bg-danger rounded-2 px-1 mx-1"> 10 </span> fotoğraf </span>
                     </div>
             </div>
         </header>

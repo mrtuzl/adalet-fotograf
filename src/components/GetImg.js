@@ -5,10 +5,13 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
+import { FaArrowUp } from "react-icons/fa6";
+
 
 
 export default function GetImg() {
     const [images, setImages] = useState([]);
+    const [follow, setFollow] = useState(true);
 
     useEffect(() => {
         const fetchImages = async() => {
@@ -29,13 +32,18 @@ export default function GetImg() {
                         </div>
                     ))
                 }
-               <div className="position-fixed bottom-0 end-0 p-0 bg-white shadow-lg rounded m-1 follow">
-                    <div className="border border-1 p-2 d-flex justify-content-center align-items-center"> <span className="fw-bold"> Bizi takip edin </span> </div>
+               <div className={`position-fixed bottom-0 end-0 p-0 bg-white shadow-lg rounded m-1 follow ${follow ? 'hide' : 'show'}`}>
+                    <div className="border border-1 p-2 d-flex justify-content-center align-items-center" 
+                     onClick={() => setFollow(!follow)}> <span className="fw-bold"> Bizi takip edin </span> </div>
                     <div className="border border-1 p-2 d-flex justify-content-center align-items-center"> <span className="fw-bold"> <FaPhone className="mx-1"/> 0312 414 63 27 </span> </div>
                     <div className="border border-1 p-2 d-flex justify-content-center align-items-center"> <span> <FaInstagram color="#833ab4" size={20} className="mx-1"/> @AdaletPGM </span> </div>
                     <div className="border border-1 p-2 d-flex justify-content-center align-items-center"> <span> <FaTwitter color="#1DA1F2" size={20} className="mx-1"/> @AdaletPGM </span> </div>
                     <div className="border border-1 p-2 d-flex justify-content-center align-items-center"> <span> <FaFacebook color="#1877F2" size={20} className="mx-1"/> @AdaletPGM </span> </div>
                </div>
+               <div className={`position-fixed bottom-0 end-0 p-0 bg-white shadow-lg rounded m-1 follow ${follow ? 'show' : 'hide'}`}>
+                    <div className="border border-1 p-2 d-flex justify-content-center align-items-center"
+                    onClick={() => setFollow(!follow)}> <span className="fw-bold mx-2"> Bizi takip edin </span> <FaArrowUp/> </div>
+                </div>
             </div>
         </div>
     )

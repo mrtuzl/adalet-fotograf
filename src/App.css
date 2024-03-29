@@ -4,12 +4,11 @@
   box-sizing: border-box;
 }
 
-.logos {
-  margin-left: 10%;
-}
 .logos .logo {
   max-width: 125px;
   height: 15%;
+  -o-object-fit: cover;
+     object-fit: cover;
   cursor: pointer;
 }
 
@@ -88,4 +87,21 @@
   height: auto;
   font-size: 0.8rem;
   cursor: pointer;
+}
+
+.show {
+  display: none;
+}
+
+.hide {
+  display: block;
+}
+
+@media screen and (max-width: 500px) {
+  .hide {
+    display: none !important;
+  }
+  .show {
+    display: block;
+  }
 }/*# sourceMappingURL=App.css.map */
