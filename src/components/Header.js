@@ -11,16 +11,16 @@ export default function Header() {
 
     return (    
         <> 
-        <header className="container-wrap bg">
+        <header className="container-fluid bg">
             <div className="d-flex flex-column header"> 
                     <div className="d-flex p-3 align-items-center logos"> 
                         <div className="m-3 d-inline"> 
-                         <img src={yuzyilLogo} alt="100. Yıl Logo" className="logo m-3"/>
-                         <img src={yuzLogo} alt="100. Yıl Logo" className="logo m-3"/> 
+                         <img src={yuzyilLogo} alt="100. Yıl Logo" className="logo m-1"/>
+                         <img src={yuzLogo} alt="100. Yıl Logo" className="logo m-1"/> 
                          </div>
                         <div className="d-inline"> 
                         <img src={adaletLogo} alt="Adalet Logo" className="logo p-3"/> 
-                        <img src={logo} alt="Personel Logo" className="logo m-3"/> 
+                        <img src={logo} alt="Personel Logo" className="logo m-1"/> 
                         </div>
                     </div>
                     <div className="d-flex justify-content-center"> 
